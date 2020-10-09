@@ -1,0 +1,44 @@
+/* App.vue */
+.totheTop {
+  position: fixed;
+  bottom: 1%;
+  right: 8%;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 0.5px solid #bbb3b3;
+  border-radius: 20px;
+  color: #6d6a6a;
+  box-shadow: 0 10px 20px -8px #b2b0b3;
+  font-weight: 100;
+}
+.totheTop:hover {
+  transform: translateY(-3px);
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.footer-background {
+  background-color: #f1bbba;
+}
+
+.our-main-font {
+  font-family: 'Recipekorea', cursive;
+}
+.our-arrow-effect {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: black;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}

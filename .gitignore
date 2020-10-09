@@ -1,0 +1,31 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,java-web
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,vue,java-web
+
+### Java-Web ###
+## ignoring target file
+target/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,java-web
+
+backend/src/main/resources/application.properties
